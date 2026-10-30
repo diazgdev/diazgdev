@@ -1,0 +1,5 @@
+Terminal assets generated with RyMe.md: https://github.com/ryanpolasky/ryme.md
+Mobile layouts adapted for this profile.
+Galaga generated with pacman-contribution-graph 5.3.1: https://github.com/abozanona/pacman-contribution-graph
+Calendar data from the public GitHub contribution calendar for diazgdev, 2026-10-30.
+Avatar provided by Guillermo Díaz.

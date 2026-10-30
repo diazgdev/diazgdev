@@ -1,0 +1,11 @@
+#!/bin/sh
+set -eu
+npm test
+python3 - <<'PY'
+from pathlib import Path
+from xml.etree import ElementTree as ET
+for path in Path('.').glob('*.svg'):
+    root = ET.parse(path).getroot()
+    assert not any(node.tag.endswith('script') for node in root.iter()), path
+print('Profile SVGs are valid.')
+PY
