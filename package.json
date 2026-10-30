@@ -1,0 +1,13 @@
+{
+  "name": "diazgdev-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "ci": "sh bin/ci",
+    "refresh": "node scripts/update-galaga.mjs"
+  },
+  "dependencies": {
+    "pacman-contribution-graph": "5.3.1"
+  }
+}
